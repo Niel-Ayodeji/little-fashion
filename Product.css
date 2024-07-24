@@ -1,0 +1,71 @@
+.nav-link {
+  margin: 0 10px;
+}
+.nav-link:hover {
+  color: #ffc107;
+  text-decoration: rgba(143, 139, 139, 0.788) underline;
+}
+.nav-item .act{
+  color: #ffc107;
+}
+.icoon .per{
+  padding: 0 10px;
+ 
+}
+.cowork img{
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.compa {
+margin-top: 45px;  
+background-color: rgba(128, 164, 212, 0.425);
+padding: 100px;
+}
+.favor{
+  float: left;
+  bottom: 50%;
+  font-weight: bold;
+color: #ffc107;
+font-size: 50px;
+}
+.favori{font-weight: bold;
+  font-size: 50px;
+}
+.arrivals{
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.card-title{
+ background-image: url(./pexels-pixabay-51383.jpg);
+ height: 60vh;
+ background-size: cover;
+ box-shadow: 0px 4px 3px 0px rgba(24, 23, 23, 0.603);
+}
+.card-til{
+ background-image: url(./pexels-ox-street-5710081.jpg);
+ height: 60vh;
+ background-size: cover;
+ box-shadow: 0px 4px 3px 0px rgba(24, 23, 23, 0.603);
+}
+.card-tile{
+ background-image: url(./pexels-pixabay-51383.jpg);
+ height: 60vh;
+ background-size: cover;
+ box-shadow: 0px 4px 3px 0px rgba(24, 23, 23, 0.603);
+}
+.card-card{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.iconn{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 20px;
+}
+.arrival{
+  margin-top: 40px;
+  margin-left: 50px;
+}

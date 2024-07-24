@@ -1,0 +1,60 @@
+.nav-link {
+  margin: 0 10px;
+}
+.nav-link:hover {
+  color: #ffc107;
+  text-decoration: rgba(143, 139, 139, 0.788) underline;
+}
+.nav-item .act{
+  color: #ffc107;
+}
+
+.push{
+margin-top: 60px;
+ background-color: rgba(143, 139, 139, 0.548);
+}
+
+.choose{
+  margin-top: 200px;
+  /* margin-left: 10px; */
+  padding-left: 200px;
+  
+ }
+ .choose h3{
+  font-size: 55px;
+  font-weight: bolder;
+ }
+.push img{
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.icoon .per{
+  padding: 0 10px;
+ 
+}
+.meet{
+  margin-top: 100px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.disc{
+  width: 50%;
+}
+.don{
+  margin-bottom: -5px;
+}
+.card-text{
+  justify-content: space-around;
+}
+.quote{
+  align-items: center;
+  margin-left: 420px;
+  color: gray;
+}
+.over{
+  text-wrap: wrap;
+}
+.imgg{
+  height: 60px;
+}

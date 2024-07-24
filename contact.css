@@ -1,0 +1,87 @@
+.nav-link {
+  margin: 0 10px;
+}
+.nav-link:hover {
+  color: #ffc107;
+  text-decoration: rgba(143, 139, 139, 0.788) underline;
+}
+.nav-item .act {
+  color: #ffc107;
+}
+.push{
+margin-top: 60px;
+ background-color: rgba(143, 139, 139, 0.548);
+}
+
+.choose{
+  margin-top: 180px;
+  
+  padding-left: 180px;
+  
+ }
+ .choose h3{
+  font-size: 55px;
+  font-weight: bolder;
+ }
+.push img{
+  width: 100%;
+  overflow: hidden;
+}
+
+.begin{
+  margin-top: 100px;
+  
+}
+
+.social-icon{
+  display: flex;
+  justify-content: start;
+}
+
+
+.sec h6 {
+  font-weight: bold;
+margin: 30px 30px 0px 30px;
+
+}
+.sec a{
+  color: gray;
+ font-variant: small-caps;
+ font-weight: 600;
+ margin: 30px 30px 0px 30px;
+}
+.sec a:hover{
+  color: #ffc107;
+}
+.sec a::after{
+  content: "\2192";
+  opacity: 0;
+  
+}
+.sec a:hover::after{
+  opacity: 1;
+  color: #ffc107;
+}
+.icoon .per{
+  padding: 0 10px;
+ 
+}
+.sec p{
+ text-wrap: wrap;
+  margin: 20px 30px 30px 30px;
+font-weight: lighter;
+  
+}
+label{
+  display: block;
+  margin-bottom: 20px;
+  
+}
+textarea{
+  margin-top: 30px;
+}
+.btnn{
+  font-weight: 550;
+  padding: 8px 70px ;
+  border-radius: 30px;
+}

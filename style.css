@@ -1,0 +1,142 @@
+/* nav */
+.nav-link {
+  margin: 0 10px;
+}
+.nav-link:hover {
+  color: #ffc107;
+  text-decoration: rgba(143, 139, 139, 0.788) underline;
+}
+.nav-item .act {
+  color: #ffc107;
+}
+.icoon .per{
+  padding: 0 10px;
+ 
+}
+
+.showe {
+ background-image: url(./african-american-woman-pharmacist-standing-with-serious-expression-pharmacy\ \(1\).jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 80vh;
+  position: relative;
+}
+
+.words {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50px;
+}
+
+img {
+  width: 100%;
+}
+.intro {
+  transform: translateY(40%);
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  /* border-left: 1px solid red; */
+}
+.intro a {
+  color: gray;
+}
+.intro .active {
+  color: #ffc107;
+}
+
+.intro a:hover:not(.active) {
+  color: #ffc107;
+}
+.ideas {
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: column;
+}
+.para {
+  font-size: 20px;
+}
+.learn {
+  margin-top: 10px;
+  text-decoration: none;
+  padding: -15px;
+  color: gray;
+  text-decoration: none;
+  /* border: 2px solid black; */
+  /* position: relative; */
+}
+.learn:hover{
+  color: #ffc107;
+}
+.learn::after{
+  content: "\2192";
+  opacity: 0;
+  /* height: 100px;
+  width: 100px; */
+  /* position: absolute; */
+}
+
+.learn:hover::after{
+  opacity: 1;
+  color: #ffc107;
+}
+
+.shopp {
+  transform: translateY(40%);
+  margin: 0px 0px 0px 0px;
+  float: left;
+  /* border: 2px solid black; */
+  font-weight: lighter;
+  /* background-color: rgba(128, 124, 124, 0.664); */
+  /* justify-self: flex-start; */
+}
+.shop {
+  font-weight: bold;
+  font-size: 38px;
+}
+.wrap {
+  text-wrap: wrap;
+  font-size: 38px;
+}
+.explo {
+  text-decoration: none;
+}
+.card-title {
+  background-image: url(./pexels-pixabay-51383.jpg);
+  height: 60vh;
+  background-size: cover;
+  box-shadow: 0px 4px 3px 0px rgba(24, 23, 23, 0.603);
+}
+.card-til {
+  background-image: url(./pexels-ox-street-5710081.jpg);
+  height: 60vh;
+  background-size: cover;
+  box-shadow: 0px 4px 3px 0px rgba(24, 23, 23, 0.603);
+}
+.card-tile {
+  background-image: url(./pexels-josh-sorenson-1334597.jpg);
+  height: 60vh;
+  background-size: cover;
+  box-shadow: 0px 4px 3px 0px rgba(24, 23, 23, 0.603);
+}
+.center {
+  justify-content: center;
+  /* float: left; */
+}
+
+.roww {
+  background: rgba(128, 128, 128, 0.445);
+}
+.iconn {
+  display: flex;
+  justify-content: space-between;
+
+  text-align: center;
+  padding: 20px;
+}
+.card-card {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
